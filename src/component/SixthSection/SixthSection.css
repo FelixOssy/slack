@@ -1,0 +1,23 @@
+.SixthSection-container {
+    padding: 20px 70px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.SixthSection-container h1 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.SixthSection-container img {
+    height: auto;
+    width: 150px;
+    margin: 20px;
+}
+
+@media screen and (max-width:980px) {
+    .SixthSection-container {
+        display: none;
+    }
+}

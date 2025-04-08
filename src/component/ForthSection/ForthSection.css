@@ -1,0 +1,54 @@
+.ForthSection-container {
+    padding: 20px 100px;
+    background-color: #F9F2FE;
+}
+
+.ForthBodySection {
+    display: flex;
+    margin-top: 80px;
+    gap: 100px;
+    padding: 10px 70px;
+}
+
+.ForthBodySection img {
+    width: 450px;
+    height: 300px;
+}
+
+#ForthBodySectionNote {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+#ForthBodySectionFigure {
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:980px) {
+    .ForthSection-container {
+        padding: 15px 15px;
+    }
+    .ForthBodySection {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 50px;
+        padding: 0;
+    }
+    .ForthBodySection h2 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    #ForthBodySectionNote {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .ForthBodySection img {
+        width: 100%;
+        height: 100%;
+    }
+}

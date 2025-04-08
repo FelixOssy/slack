@@ -1,0 +1,89 @@
+        .MainSection-container {
+            padding: 20px 100px;
+            background-color: #F9F2FE;
+        }
+        
+        .MainSection-header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #MainSection-Text h1 {
+            text-align: center;
+        }
+        
+        #MainSection-Symbols ul {
+            display: flex;
+            gap: 50px;
+            list-style: none;
+            margin-top: 20px;
+        }
+        
+        #MainSection-Symbols img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        
+        .BodySection {
+            display: flex;
+            margin-top: 80px;
+            gap: 100px;
+            padding: 10px 70px;
+        }
+        
+        .BodySection img {
+            width: 450px;
+            height: 300px;
+        }
+        
+        #BodySectionNote {
+            display: flex;
+            gap: 20px;
+            margin-top: 40px;
+        }
+        
+        #BodySectionFigure {
+            color: blueviolet;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        
+        @media screen and (max-width:980px) {
+            .MainSection-container {
+                padding: 15px 15px;
+            }
+            #MainSection-Text h1 {
+                text-align: center;
+                font-size: 30px;
+                font-weight: bolder;
+            }
+            #MainSection-Symbols {
+                display: none;
+            }
+            .BodySection {
+                display: flex;
+                flex-direction: column;
+                margin-top: 40px;
+                gap: 50px;
+                padding: 0;
+            }
+            .BodySection h2 {
+                font-weight: bold;
+                font-size: 30px;
+            }
+            #BodySectionNote {
+                display: flex;
+                flex-direction: column;
+                gap: 0;
+            }
+            .BodySection img {
+                width: 450px;
+                height: 300px;
+            }
+            .BodySection img {
+                width: 100%;
+                height: 100%;
+            }
+        }

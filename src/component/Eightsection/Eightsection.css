@@ -1,0 +1,49 @@
+.Eightsection-container {
+    padding: 50px 70px;
+    justify-content: center;
+    justify-items: center;
+    background-color: purple;
+}
+
+.Eightsection-container h1 {
+    font-weight: bold;
+    color: white;
+}
+
+#Eightsection-body {
+    display: flex;
+    gap: 150px;
+    margin-top: 50px;
+}
+
+#Eightsection-body h2 {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}
+
+#Eightsection-body p {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width:980px) {
+    .Eightsection-container {
+        padding: 15px 15px;
+    }
+    .Eightsection-container h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+    #Eightsection-body {
+        display: grid;
+        grid-column: 1fr;
+        gap: 40px;
+    }
+    #Eightsection-body p {
+        font-size: 28px;
+    }
+}
