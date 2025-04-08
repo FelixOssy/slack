@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-import Navbar from '../../component/Navbar/Navbar'
+
 import HeroSection from "../../component/HeroSection/HeroSection"
 import MainSection from "../../component/MainSection/MainSection"
 import ThirdSection from '../../component/ThirdSection/ThirdSection'
@@ -13,7 +13,6 @@ import Eightsection from '../../component/Eightsection/Eightsection'
 const Home = () => {
   return (
     <div className='HomePage'>
-      <Navbar/>
       <HeroSection/>
       <MainSection/>
       <ThirdSection/>
