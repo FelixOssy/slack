@@ -45,8 +45,8 @@ const Navbar = () => {
           <Link to="/about"  className="nav-link">
           About
           </Link>
-          <Link to="/services"  className="nav-link">
-          Services
+          <Link to="/product"  className="nav-link">
+          Product
           </Link>
           <Link to="/blog"  className="nav-link">
           Blog
@@ -107,8 +107,8 @@ const Navbar = () => {
           <Link to="/about"  className="nav-link" onClick={() => setIsMenuOpen(false)}>
           About
           </Link>
-          <Link to="/services"  className="nav-link" onClick={() => setIsMenuOpen(false)}>
-          Services
+          <Link to="/product"  className="nav-link" onClick={() => setIsMenuOpen(false)}>
+          Product
           </Link>
           <Link to="/blog"  className="nav-link" onClick={() => setIsMenuOpen(false)}>
           Blog

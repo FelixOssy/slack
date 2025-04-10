@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Product.css"
-import HeroSection from "../../component/HeroSection/HeroSection"
+import DommyProduct from "../../component/DommyProduct/DommyProduct"
 const Product = () => {
   return (
     <div>
-       <HeroSection/>
+       <DommyProduct/>
     </div>
   )
 }
